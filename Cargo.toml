@@ -1,0 +1,19 @@
+[package]
+name = "krust"
+version = "0.1.0"
+authors = ["Alex Whitney <awhitney@tylercapital.co.uk>"]
+links = "kdb"
+build = "build.rs"
+
+[dependencies]
+libc = "*"
+num = "*"
+bitflags = "*"
+nix = "*"
+
+[lib]
+name = "krust"
+crate-type = ["dylib", "bin"]
+
+[features]
+api = []
