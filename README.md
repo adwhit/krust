@@ -21,6 +21,8 @@ ar rcs libkdb.a c.o
 mv libkdb.so src/c
 ```
 
+`c.o` can be found [here](http://code.kx.com/wsvn/code).
+
 Compatibility
 -------------
 
