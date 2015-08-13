@@ -30,3 +30,8 @@ This is only tested with 64bit Linux (and 64bit Rust/Q).
 I sincerely doubt that it would work with Windows or OSX.
 
 It uses unstable features so requires rust-nightly.
+
+License
+-------
+
+MIT
