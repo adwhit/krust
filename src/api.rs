@@ -60,6 +60,7 @@ pub enum KErr {
     AuthenticationFailed,
     QueryFailed,
     SocketClosed,
+    SocketTimeout,
     IOErr,
     RecvErr,
     SendErr,
