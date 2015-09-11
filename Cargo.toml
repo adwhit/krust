@@ -13,7 +13,7 @@ nix = "*"
 
 [lib]
 name = "krust"
-crate-type = ["dylib", "bin"]
+#crate-type = ["dylib", "bin"]
 
 [features]
 api = []
